@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "package": "http://example.com/test",
+    "version": "1.0",
+    "roots": ["Schema"],
+    "namespaces": [
+      ["xs", "http://www.w3.org/2001/XMLSchema"],
+      ["", "http://example.com/test"]
+    ]
+  },
+
+  "types": [
+    ["Placeholder", "Record", [], "Placeholder type to satisfy minItems=1"]
+  ]
+}
